@@ -1,16 +1,15 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Customer/> 
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Customer from './components/Customer'
 export default {
   name: 'App',
   components: {
-    Customer
+  
   }
 }
 </script>
